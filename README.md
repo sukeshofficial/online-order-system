@@ -2,12 +2,12 @@
 
 Simple Flask-based order management demo app. It provides a small web UI to view a menu, place orders, and review existing orders.
 
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![Terminal](image.png)
+![alt text](./images/image-1.png)
+![alt text](./images/image-2.png)
+![alt text](./images/image-3.png)
+![alt text](./images/image-4.png)
+![alt text](./images/image-5.png)
+![Terminal](./images/image.png)
 
 **Features**
 - View menu and place orders via a web form.
