@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+  <nav class="bg-white shadow p-4 flex justify-between">
+    <h1 class="text-xl font-bold">Online Order System | SUKESH</h1>
+
+    <div class="space-x-4">
+      <a href="/" class="text-gray-600 hover:text-black">Home</a>
+      <a href="/menu" class="text-gray-600 hover:text-black">Menu</a>
+      <a href="/order" class="text-gray-600 hover:text-black">Place Order</a>
+      <a href="/orders" class="text-gray-600 hover:text-black">Orders</a>
+    </div>
+  </nav>
+
+  <div class="container mx-auto mt-10 p-6">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>
